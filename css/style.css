@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7D82B8;
+}
+
+.content-column {
+    width: 50%;
+    display: inline-block;
+}
+
+.link-navigation {
+    display: inline-block;
+    text-decoration: none;
+    color: #F0A202;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+}
+
+.link-navigation:hover {
+    color: white;
+}
+
+#profile-picture {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 0px #000000 ;
+    transition: 250ms;
+    transform: rotate(0deg);
+}
+
+.hidden-text {
+    opacity: 0;
+    transition: 250ms;
+}
+
+#profile-picture:hover {
+    transform: rotate(-20deg);
+    box-shadow: 10px 10px 10px #000000 ;
+}
+
+#profile-text {
+    text-align: center;
+    font-size: 1.2rem;
+    transition: 250ms;
+}
+
+#profile-picture:hover + #profile-text {
+    padding-top: 10%;
+}
+
+#left-column {
+    float: left;
+}
+
+#right-column {
+    float: right;
+}
+
+#home-video {
+    margin-left: 12.5%;
+    width: 75%;
+    height: 50%;
+}
+
+#video-header {
+    margin-top: 15%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.page-header{
+    color: #F0A202;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.page-header:hover .hidden-text {
+    opacity: 1;
+}
+
+#email-link {
+    width: 30%;
+    min-width: 100px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    margin-top: 20%;
+    color: white;
+    background-color: #F0A202;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cards-section {
+    margin-top: 5%;
+}
+
+.card-info-container {
+    width: 25%;
+    min-width: 200px;
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-info {
+    text-align: center;
+    font-size: 1.25rem;
+}
+@media screen and (max-width: 900px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+} 
+
