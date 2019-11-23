@@ -1,0 +1,12 @@
+.menu-item-button {
+  padding: 2vh 5vw;
+  background: #BB0A21;
+  color: white;
+  border-radius: 15px;
+  margin-top: 2vh;
+}
+
+.pizza-card {
+  max-width: 350px;
+}
+/*# sourceMappingURL=menu.css.map */

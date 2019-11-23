@@ -1,0 +1,38 @@
+@import '_colors';
+
+#header-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: -17vh;
+    background: white;
+    padding-bottom: 2vh;
+    box-shadow: 0 1px 3px $secondary-background;
+}
+
+.header-item-container {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.header-link {
+    text-decoration: none;
+    color: $primary-text;
+    padding: 2.5px;
+    font-weight: bold;
+}
+
+.active-link {
+    border-bottom: 2px solid $primary;
+}
+
+#phone-number {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#logo-image {
+    height: 15vh;
+}

@@ -1,0 +1,38 @@
+#about-us-video {
+  width: 100%;
+}
+
+.about-us-content-container {
+  width: 100%;
+}
+
+#about-us-text-header {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #252627;
+  margin: 0 6vw;
+  text-align: center;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  padding-bottom: 3vh;
+  border-bottom: 2px solid #BB0A21;
+}
+
+.about-us-text {
+  padding: 3vh 5vw;
+  text-align: center;
+}
+
+.about-us-icon {
+  width: 33%;
+  max-width: 200px;
+}
+
+#wheat-icon {
+  fill: #ffb300;
+}
+
+#chefs-hat-icon {
+  fill: #BB0A21;
+}
+/*# sourceMappingURL=aboutus.css.map */
